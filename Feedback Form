@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Feedback Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #e6e7c1;
+            padding: 30px;
+            display: flex;
+            justify-content: center;
+        }
+
+        form {
+            background-color: #797ab1;
+            padding: 25px 30px;
+            border-radius: 8px;
+            box-shadow: 0 0 12px rgba(174, 127, 127, 0.285);
+            width: 400px;
+        }
+
+        h2 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        label {
+            font-weight: bold;
+            display: block;
+            margin-bottom: 6px;
+            color: #555;
+        }
+
+        input[type="text"],
+        textarea {
+            width: 100%;
+            padding: 10px 12px;
+            margin-bottom: 20px;
+            border: 1px solid #ed5c0d;
+            border-radius: 4px;
+            font-size: 14px;
+            resize: vertical;
+        }
+
+        textarea {
+            font-family: Arial, sans-serif;
+        }
+
+        .radio-group {
+            margin-bottom: 20px;
+        }
+
+        input[type="radio"] {
+            margin-right: 6px;
+            cursor: pointer;
+        }
+
+        label[for="satisfied"],
+        label[for="unsatisfied"] {
+            font-weight: normal;
+            color: #333;
+            cursor: pointer;
+            margin-right: 20px;
+        }
+
+        button[type="submit"] {
+            width: 100%;
+            background-color: #4CAF50;
+            border: none;
+            padding: 12px;
+            color: white;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        button[type="submit"]:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <form onsubmit="alert('Thank you for your feedback!'); return false;">
+        <h2>Feedback Form</h2>
+
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="message">Feedback:</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <label>How satisfied are you?</label>
+        <div class="radio-group">
+            <input type="radio" id="satisfied" name="satisfaction" value="Satisfied" required>
+            <label for="satisfied">Satisfied</label>
+
+            <input type="radio" id="unsatisfied" name="satisfaction" value="Unsatisfied">
+            <label for="unsatisfied">Unsatisfied</label>
+        </div>
+
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
