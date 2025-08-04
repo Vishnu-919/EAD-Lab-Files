@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+  <title>Introduction to MERN Stack</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      max-width: 700px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    p {
+      border: 2px solid #4CAF50; /* green border */
+      padding: 15px;
+      border-radius: 8px;
+      background-color: #f9fff9;
+      margin-bottom: 20px;
+    }
+
+    ol {
+      border: 2px solid #2196F3; /* blue border */
+      padding: 15px 30px;
+      border-radius: 8px;
+      background-color: #f0f7ff;
+      margin-bottom: 20px;
+    }
+
+    img {
+      display: block;
+      margin: 0 auto 30px auto;
+      max-width: 100%;
+      border: 3px solid #ff5722; /* orange border */
+      border-radius: 10px;
+    }
+
+    a {
+      color: #2196F3;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <h1>Introduction to MERN stack</h1>
+
+  <p>
+    The MERN stack is a popular set of technologies used for building full-stack JavaScript applications. 
+    It combines MongoDB, Express.js, React, and Node.js to enable efficient development of modern web applications. 
+  </p>
+
+  <ol>
+    <li>MongoDB</li>
+    <li>Express.js</li>
+    <li>React</li>
+    <li>Node.js</li>
+  </ol>
+
+  <img src="https://via.placeholder.com/600x300?text=MERN+Stack" alt="MERN Stack Image" />
+
+  <p>
+    Learn more about <a href="https://www.mongodb.com/" target="_blank" rel="noopener noreferrer">MongoDB</a>.
+  </p>
+</body>
+</html>
