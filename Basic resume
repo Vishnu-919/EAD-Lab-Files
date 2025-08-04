@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>My Resume</title>
+    <style>
+        body {
+            font-family: cursive, serif;
+            background-color: #ff8400c7;
+            margin: 0;
+            padding: 30px 0;
+        }
+
+        .resume-container {
+            width: 800px;
+            margin: auto;
+            background-color: #fff;
+            border: 3px solid #333;
+            border-radius: 10px;
+            padding: 40px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 5px;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 1.6;
+        }
+
+        hr {
+            margin: 25px 0;
+            border: 1px solid #ccc;
+        }
+
+        h2 {
+            margin-top: 30px;
+            border-bottom: 2px solid #444;
+            padding-bottom: 5px;
+            font-weight: bold;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin-top: 15px;
+        }
+
+        table, th, td {
+            border: 1px solid #aaa;
+        }
+
+        th, td {
+            padding: 12px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f7a541;
+            color: white;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        ul li {
+            margin-bottom: 8px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="resume-container">
+        <h1>John Wick</h1>
+
+        <p><strong>Email:</strong> Johnwick@85.com</p>
+        <p><strong>Phone:</strong> +91 8765432198</p>
+        <p><strong>Location:</strong> Hyderabad, India</p>
+
+        <hr>
+
+        <h2>About Me</h2>
+        <p>
+            I am a motivated and detail-oriented individual with a passion for web development and design.
+            I enjoy learning new technologies and building user-friendly applications.
+        </p>
+
+        <h2>Education</h2>
+        <table>
+            <tr>
+                <th>Degree</th>
+                <th>Institution</th>
+                <th>Year</th>
+            </tr>
+            <tr>
+                <td>Bachelor of Engineering</td>
+                <td>CBIT</td>
+                <td>2022</td>
+            </tr>
+            <tr>
+                <td>Secondary</td>
+                <td>GPS</td>
+                <td>2018</td>
+            </tr>
+        </table>
+
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML, CSS, JavaScript</li>
+            <li>Data Structures</li>
+            <li>Python</li>
+            <li>Version Control (Git)</li>
+            <li>Responsive Web Design</li>
+        </ul>
+    </div>
+
+</body>
+</html>
