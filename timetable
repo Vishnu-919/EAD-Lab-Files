@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<title>Time Table</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 20px;
+    }
+    h2 {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    table {
+        font-family: Arial, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+        max-width: 600px;
+        margin: 0 auto;
+    }
+    td, th {
+        border: 1px solid hsl(189, 75%, 36%);
+        text-align: left;
+        padding: 8px;
+    }
+    tr:nth-child(even) {
+        background-color: hsl(178, 23%, 73%);
+    }
+    th {
+        background-color: #4CAF50;
+        color: white;
+        font-weight: bold;
+    }
+</style>
+</head>
+<body>
+<h2>Time Table</h2>
+<table>
+    <tr>
+        <th>Time</th>
+        <th>Subject</th>   
+    </tr>
+    <tr>
+        <td>9.00AM - 10.00AM</td>
+        <td>EAD</td>
+    </tr>
+    <tr>
+        <td>10.00AM - 11.00AM</td>
+        <td>CN</td>
+    </tr>
+    <tr>
+        <td>11.00AM - 12.00PM</td>
+        <td>ML</td>
+    </tr>
+    <tr>
+        <td>12.00PM - 1.00PM</td>
+        <td>FLAT</td>
+    </tr>
+    <tr>
+        <td>2.00PM - 3.00PM</td>
+        <td>SE</td>
+    </tr>
+    <tr>
+        <td>3.00PM - 4.00PM</td>
+        <td>CC</td>
+    </tr>
+</table>
+</body>
+</html>
